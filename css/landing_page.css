@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #000;
+}
+.nav-link {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+.diagonal-lines {
+  letter-spacing: -3px;
+  font-weight: 300;
+}
+.projects-text {
+  font-size: 9.5rem;
+  line-height: 0.85;
+}
+.year-text {
+  font-size: 11rem;
+  line-height: 0.8;
+}
