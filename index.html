@@ -7,14 +7,44 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <header class="bg-[#c5fb00] py-3">
-      <div class="container mx-auto px-8 flex justify-between items-center">
-        <h1 class="text-black text-2xl font-bold tracking-tighter">
-          LEADING BLOCKS
-        </h1>
-        <a href="#" class="text-black text-sm tracking-tight">BACK TO HOME</a>
-      </div>
+    <header class="bg-[#C2F900] py-4">
+        <div class="container mx-auto px-8">
+            <nav class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="/" class="text-black font-bold text-2xl">
+                    LEADING BLOCKS™
+                </a>
+    
+                <!-- Navigation Links -->
+                <div class="flex gap-12">
+                    <a href="#" class="text-black uppercase hover:opacity-75">About Us</a>
+                    <a href="#" class="text-black uppercase hover:opacity-75">Services</a>
+                    <a href="/projects.html" class="text-black uppercase hover:opacity-75">Projects</a>
+                    <a href="#" class="text-black uppercase hover:opacity-75">Media</a>
+                    <a href="#" class="text-black uppercase hover:opacity-75">Contact Us</a>
+                    <a href="#" class="text-black uppercase hover:opacity-75">Careers</a>
+                </div>
+            </nav>
+        </div>
+    
+        <style>
+            @font-face {
+                font-family: 'Space Mono';
+                src: url('path-to-space-mono-font.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+    
+            nav a {
+                font-family: 'Space Mono', monospace;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                transition: opacity 0.3s ease;
+            }
+        </style>
     </header>
+
 
     <main> 
 
